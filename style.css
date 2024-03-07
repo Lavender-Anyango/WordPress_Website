@@ -285,6 +285,15 @@ label {
     font-weight: bolder;
     margin-left: 8%;
 }
+.riad1{
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+.header3{
+    font-size: 60px;
+    color: white;
+}
 
 /* Media queries for responsiveness */
 
