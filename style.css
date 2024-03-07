@@ -1,0 +1,367 @@
+/* General styles */
+.topline {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.topline a {
+    color: white;
+    font-weight: bold;
+}
+
+.contactdetails {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.contactdetails p {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.hlablel {
+    color: grey;
+}
+
+.topnav {
+    display: flex;
+    gap: 30px;
+}
+
+.topnav a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.home {
+    color: darkorange;
+}
+
+.topnav_item {
+    color: black;
+}
+
+.topbody {
+    background-image: url("IMAGES/bgimage2.jpg");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+}
+
+.paragraphs {
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+
+button {
+    border: 1px solid;
+    padding: 15px;
+    background-color: darkorange;
+    color: white;
+    font-weight: bold;
+}
+
+.header {
+    color: white;
+    font-weight: bold;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.content {
+    text-align: center;
+}
+
+.content1 {
+    float: right;
+}
+
+.gcontent {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#image2 {
+    width: 550px;
+    height: 550px;
+}
+
+#year {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.riad {
+    color: darkorange;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.ipsum {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.header2 {
+    font-size: 40px;
+}
+
+.our_services {
+    text-align: center;
+}
+
+.service_icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.storage {
+    background-color: rgb(107, 107, 216);
+    color: white;
+    align-items: center;
+    width: 200px;
+}
+
+.help {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.video {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.leading {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#chair {
+    width: 40%;
+    margin-left: 180px;
+}
+
+ul {
+    list-style-image: url("IMAGES/listimage.png");
+    margin-left: 40px;
+}
+
+#online_booking {
+    margin-left: 40%;
+    color: grey;
+    font-weight: bold;
+}
+
+.chair_container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.ad {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.booking {
+    background-color: orange;
+}
+
+form {
+    background-color: rgb(78, 78, 165);
+}
+
+.input_group {
+    padding: 15px 5px;
+    width: 30%;
+    border: solid 1px;
+}
+
+label {
+    display: block;
+    color: white;
+    font-weight: bold;
+}
+
+.left-side, .right-side {
+    flex-basis: 50%;
+}
+
+.footer {
+    display: flex;
+    gap: 100px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+
+.footer-item {
+    margin-left: 5%;
+}
+
+#reviewer {
+    width: 14%;
+    border-radius: 50%;
+}
+
+.vase {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.updates {
+    display: flex;
+    gap: 350px;
+    margin-left: 30%;
+}
+
+.comment1, .comment2, .comment3 {
+    background-repeat: no-repeat;
+    padding: 10%;
+    filter: blur(20%);
+    background-size: cover;
+}
+
+.comment1 {
+    background-image: url("IMAGES/moving1.jpg");
+    color: white;
+    font-weight: bolder;
+}
+
+.comment2 {
+    background-image: url("IMAGES/moving2.jpg");
+    color: black;
+    font-weight: bolder;
+}
+
+.comment3 {
+    background-image: url("IMAGES/moving3.jpg");
+    color: white;
+    font-weight: bolder;
+}
+
+.empty {
+    background-color: darkorange;
+    display: flex;
+    gap: 24%;
+    padding: 10px;
+}
+
+.empty button {
+    background-color: black;
+}
+
+.empty h2 {
+    color: white;
+    font-weight: bolder;
+    margin-left: 8%;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 600px) {
+    .topnav {
+        flex-direction: column;
+    }
+
+    .topnav a {
+        padding: 10px 0;
+    }
+
+    .left-side, .right-side {
+        flex-basis: 100%;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    #chair {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .updates {
+        gap: 10px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .topbody {
+        padding: 5%;
+    }
+
+    .paragraphs {
+        font-size: 24px;
+    }
+
+    .ipsum {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .service_icons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .storage {
+        width: 150px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .topnav {
+        flex-direction: column;
+    }
+
+    .topnav a {
+        padding: 10px 0;
+    }
+
+    .left-side, .right-side {
+        flex-basis: 100%;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    #chair {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .updates {
+        gap: 10px;
+        margin-left: 0;
+    }
+}
